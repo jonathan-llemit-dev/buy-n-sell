@@ -8,7 +8,7 @@ import ProductModal from "./ProductModal";
 
 const cartItemsArray = [
   {
-    image: "https://prd.place/400/400?id=buynsell05152505",
+    image: "https://picsum.photos/seed/picsum/400/400",
     name: "iPhone 16 Pro Max",
     description: "12GB RAM + 256GB Storage",
     category: ["electronics", "smartphone"],
@@ -21,7 +21,7 @@ const cartItemsArray = [
     quantity: 3,
   },
   {
-    image: "https://prd.place/400/400?id=buynsell05152504",
+    image: "https://picsum.photos/seed/picsum/400/400",
     name: "Nike Air Max 270",
     description: "Men's Running Shoes",
     category: ["fashion", "footwear"],
@@ -34,7 +34,7 @@ const cartItemsArray = [
     quantity: 4,
   },
   {
-    image: "https://prd.place/400/400?id=buynsell05152498",
+    image: "https://picsum.photos/seed/picsum/400/400",
     name: "Sony WH-1000XM5",
     description: "Wireless Noise-Canceling Headphones",
     category: ["tech", "audio"],
@@ -47,7 +47,7 @@ const cartItemsArray = [
     quantity: 6,
   },
   {
-    image: "https://prd.place/400/400?id=buynsell05152497",
+    image: "https://picsum.photos/seed/picsum/400/400",
     name: "Fitbit Charge 6",
     description: "Fitness & Health Tracker",
     category: ["wearables", "fitness"],
@@ -60,7 +60,7 @@ const cartItemsArray = [
     quantity: 8,
   },
   {
-    image: "https://prd.place/400/400?id=buynsell05152496",
+    image: "https://picsum.photos/seed/picsum/400/400",
     name: "Anker PowerCore 20000",
     description: "Portable Charger Power Bank",
     category: ["tech", "accessory"],
