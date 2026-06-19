@@ -1,7 +1,7 @@
 const products = [
   {
     id: 1,
-    image: "https://picsum.photos/seed/picsum/400/400",
+    image: "https://picsum.photos/400/400?random=1",
     name: "iPhone 16 Pro Max",
     description: "12GB RAM + 256GB Storage",
     category: ["electronics", "smartphone"],
@@ -14,7 +14,7 @@ const products = [
   },
   {
     id: 2,
-    image: "https://picsum.photos/seed/picsum/400/400",
+    image: "https://picsum.photos/400/400?random=2",
     name: "Nike Air Max 270",
     description: "Men's Running Shoes",
     category: ["fashion", "footwear"],
@@ -27,7 +27,7 @@ const products = [
   },
   {
     id: 3,
-    image: "https://picsum.photos/seed/picsum/400/400",
+    image: "https://picsum.photos/400/400?random=3",
     name: "Instant Pot Duo 7-in-1",
     description: "Electric Pressure Cooker, 6 Qt",
     category: ["kitchen", "appliance"],
@@ -40,7 +40,7 @@ const products = [
   },
   {
     id: 4,
-    image: "https://picsum.photos/seed/picsum/400/400",
+    image: "https://picsum.photos/400/400?random=4",
     name: "The Subtle Art of Not Giving a F*ck",
     description:
       "A Counterintuitive Approach to Living a Good Life - Mark Manson",
@@ -54,7 +54,7 @@ const products = [
   },
   {
     id: 5,
-    image: "https://picsum.photos/seed/picsum/400/400",
+    image: "https://picsum.photos/400/400?random=5",
     name: "Logitech MX Master 3S",
     description: "Wireless Performance Mouse with Quiet Clicks",
     category: ["tech", "accessory"],
@@ -67,7 +67,7 @@ const products = [
   },
   {
     id: 6,
-    image: "https://picsum.photos/seed/picsum/400/400",
+    image: "https://picsum.photos/400/400?random=6",
     name: "Samsung Galaxy S24 Ultra",
     description: "16GB RAM + 512GB Storage",
     category: ["electronics", "smartphone"],
@@ -80,7 +80,7 @@ const products = [
   },
   {
     id: 7,
-    image: "https://picsum.photos/seed/picsum/400/400",
+    image: "https://picsum.photos/400/400?random=7",
     name: "Adidas Ultraboost 22",
     description: "Performance Running Shoes",
     category: ["fashion", "footwear"],
@@ -93,7 +93,7 @@ const products = [
   },
   {
     id: 8,
-    image: "https://picsum.photos/seed/picsum/400/400",
+    image: "https://picsum.photos/400/400?random=8",
     name: "Sony WH-1000XM5",
     description: "Wireless Noise-Canceling Headphones",
     category: ["tech", "audio"],
@@ -106,7 +106,7 @@ const products = [
   },
   {
     id: 9,
-    image: "https://picsum.photos/seed/picsum/400/400",
+    image: "https://picsum.photos/400/400?random=9",
     name: "Fitbit Charge 6",
     description: "Fitness & Health Tracker",
     category: ["wearables", "fitness"],
@@ -119,7 +119,7 @@ const products = [
   },
   {
     id: 10,
-    image: "https://picsum.photos/seed/picsum/400/400",
+    image: "https://picsum.photos/400/400?random=10",
     name: "Anker PowerCore 20000",
     description: "Portable Charger Power Bank",
     category: ["tech", "accessory"],

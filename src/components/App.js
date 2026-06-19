@@ -109,9 +109,9 @@ export default function App() {
         <div className="main-container">
           <Filters uniqueCategories={uniqueCategories} />
           <div className="products-container">
-            {products.map((product, index) => (
+            {products.map((product) => (
               <Product
-                key={index}
+                key={product.id}
                 product={product}
                 onProductModal={handleProductModal}
               />
