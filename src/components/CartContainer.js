@@ -6,6 +6,7 @@ export default function CartContainer({
   onCartOpen,
   cartItems,
   onRemoveToCart,
+  onUpdateCartItemQuantity,
 }) {
   const [selectedProductsOnCart, setSelectedProductsOnCart] = useState([]);
 
@@ -117,6 +118,7 @@ export default function CartContainer({
                 ),
               }}
               onSelectProduct={handleSelectProduct}
+              onUpdateCartItemQuantity={onUpdateCartItemQuantity}
             />
           ))
         )}

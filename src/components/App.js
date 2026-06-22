@@ -102,6 +102,12 @@ export default function App() {
     );
   }
 
+  function handleUpdateCartItemQuantity(itemId, newQuantity) {
+    setCartItems((cartItems) =>
+      cartItems.map((item) => (item.id === itemId ? {...item, quantity: newQuantity} : item))
+    );
+  }
+
   return (
     <>
       <div className="App">
@@ -123,6 +129,7 @@ export default function App() {
           onCartOpen={handleCartOpen}
           cartItems={cartItems}
           onRemoveToCart={handleRemoveToCart}
+          onUpdateCartItemQuantity={handleUpdateCartItemQuantity}
         />
       </div>
       <ProductModal

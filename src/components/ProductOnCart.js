@@ -1,4 +1,4 @@
-export default function ProductOnCart({ product, onSelectProduct }) {
+export default function ProductOnCart({ product, onSelectProduct, onUpdateCartItemQuantity }) {
   const hasDiscount = product.storeDiscountPercentage > 0;
   const totalOriginalPrice = product.price * product.quantity;
 
@@ -68,9 +68,10 @@ export default function ProductOnCart({ product, onSelectProduct }) {
 
       <div className="product-card-on-cart-footer">
         <div className="product-on-cart-quantity">
-          <button>-</button>
+          <button onClick={() => product.quantity > 1 && onUpdateCartItemQuantity(product.id, product.quantity - 1)}>-</button>
           <span>{product.quantity}</span>
-          <button>+</button>
+          <button onClick={() => product.quantity < product.stocks && onUpdateCartItemQuantity(product.id, product.quantity + 1)}>+</button>
+          <span className="product-stocks">{`(${product.stocks} stocks left)`}</span>
         </div>
         <span>Total: ₱ {totalDiscountedPriceDisplay}</span>
       </div>

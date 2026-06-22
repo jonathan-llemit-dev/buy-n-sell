@@ -93,7 +93,7 @@ export default function ProductModal({
               >
                 +
               </button>
-              <span className="product-on-modal-stocks">
+              <span className="product-stocks">
                 {selectedProduct.stocks} stocks left
               </span>
             </div>
