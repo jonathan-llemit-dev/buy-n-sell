@@ -1,7 +1,7 @@
 const products = [
   {
     id: 1,
-    image: "https://picsum.photos/400/400?random=1",
+    image: "https://images.placeholders.dev/?width=400&height=400&text=iPhone+16+Pro+Max&bgColor=%231a1a2e&textColor=%23ffffff&fontSize=28&fontWeight=bold&textWrap=true",
     name: "iPhone 16 Pro Max",
     description: "12GB RAM + 256GB Storage",
     category: ["electronics", "smartphone"],
@@ -14,7 +14,7 @@ const products = [
   },
   {
     id: 2,
-    image: "https://picsum.photos/400/400?random=2",
+    image: "https://images.placeholders.dev/?width=400&height=400&text=Nike+Air+Max+270&bgColor=%23ff6b00&textColor=%23ffffff&fontSize=30&fontWeight=900&textWrap=true",
     name: "Nike Air Max 270",
     description: "Men's Running Shoes",
     category: ["fashion", "footwear"],
@@ -27,7 +27,7 @@ const products = [
   },
   {
     id: 3,
-    image: "https://picsum.photos/400/400?random=3",
+    image: "https://images.placeholders.dev/?width=400&height=400&text=Instant+Pot+Duo&bgColor=%233d8c40&textColor=%23ffffff&fontSize=32&fontWeight=bold&textWrap=true",
     name: "Instant Pot Duo 7-in-1",
     description: "Electric Pressure Cooker, 6 Qt",
     category: ["kitchen", "appliance"],
@@ -40,10 +40,9 @@ const products = [
   },
   {
     id: 4,
-    image: "https://picsum.photos/400/400?random=4",
+    image: "https://images.placeholders.dev/?width=400&height=400&text=Subtle+Art+of+Not+Giving&bgColor=%23f5e6d3&textColor=%235c3a21&fontSize=26&fontWeight=600&textWrap=true",
     name: "The Subtle Art of Not Giving a F*ck",
-    description:
-      "A Counterintuitive Approach to Living a Good Life - Mark Manson",
+    description: "A Counterintuitive Approach to Living a Good Life - Mark Manson",
     category: ["books", "self-help"],
     price: 500,
     storeDiscountPercentage: 5,
@@ -54,7 +53,7 @@ const products = [
   },
   {
     id: 5,
-    image: "https://picsum.photos/400/400?random=5",
+    image: "https://images.placeholders.dev/?width=400&height=400&text=MX+Master+3S&bgColor=%234a4a4a&textColor=%23f0f0f0&fontSize=36&fontWeight=bold&textWrap=true",
     name: "Logitech MX Master 3S",
     description: "Wireless Performance Mouse with Quiet Clicks",
     category: ["tech", "accessory"],
@@ -67,7 +66,7 @@ const products = [
   },
   {
     id: 6,
-    image: "https://picsum.photos/400/400?random=6",
+    image: "https://images.placeholders.dev/?width=400&height=400&text=Galaxy+S24+Ultra&bgColor=%236a1b9a&textColor=%23ffffff&fontSize=28&fontWeight=bold&textWrap=true",
     name: "Samsung Galaxy S24 Ultra",
     description: "16GB RAM + 512GB Storage",
     category: ["electronics", "smartphone"],
@@ -80,7 +79,7 @@ const products = [
   },
   {
     id: 7,
-    image: "https://picsum.photos/400/400?random=7",
+    image: "https://images.placeholders.dev/?width=400&height=400&text=Ultraboost+22&bgColor=%230054b3&textColor=%23ffffff&fontSize=34&fontWeight=900&textWrap=true",
     name: "Adidas Ultraboost 22",
     description: "Performance Running Shoes",
     category: ["fashion", "footwear"],
@@ -93,7 +92,7 @@ const products = [
   },
   {
     id: 8,
-    image: "https://picsum.photos/400/400?random=8",
+    image: "https://images.placeholders.dev/?width=400&height=400&text=WH-1000XM5&bgColor=%23800000&textColor=%23f0f0f0&fontSize=32&fontWeight=bold&textWrap=true",
     name: "Sony WH-1000XM5",
     description: "Wireless Noise-Canceling Headphones",
     category: ["tech", "audio"],
@@ -106,7 +105,7 @@ const products = [
   },
   {
     id: 9,
-    image: "https://picsum.photos/400/400?random=9",
+    image: "https://images.placeholders.dev/?width=400&height=400&text=Fitbit+Charge+6&bgColor=%23ff6b6b&textColor=%23ffffff&fontSize=30&fontWeight=bold&textWrap=true",
     name: "Fitbit Charge 6",
     description: "Fitness & Health Tracker",
     category: ["wearables", "fitness"],
@@ -119,7 +118,7 @@ const products = [
   },
   {
     id: 10,
-    image: "https://picsum.photos/400/400?random=10",
+    image: "https://images.placeholders.dev/?width=400&height=400&text=PowerCore+20000&bgColor=%23007788&textColor=%23ffffff&fontSize=28&fontWeight=bold&textWrap=true",
     name: "Anker PowerCore 20000",
     description: "Portable Charger Power Bank",
     category: ["tech", "accessory"],
