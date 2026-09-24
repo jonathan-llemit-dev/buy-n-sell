@@ -82,6 +82,10 @@ export default function App() {
   const [isCartOpen, setIsCartOpen] = useState(false);
   const [isProductModalOpen, setProductModal] = useState(false);
   const [selectedProduct, setSelectedProduct] = useState(null);
+  const [selectedCategories, setSelectedCategories] = useState(null);
+  const [selectedRating, setSelectedRating] = useState(null);
+  const [priceRangeMin, setPriceRangeMin] = useState(null);
+  const [priceRangeMax, setPriceRangeMax] = useState(null);
 
   function handleProductModal(product) {
     setProductModal((isProductModalOpen) => !isProductModalOpen);
@@ -93,20 +97,37 @@ export default function App() {
   }
 
   function handleAddToCart(newItem) {
-    setCartItems((cartItems) => [...cartItems, newItem]);
+    cartItems.find((item) => item.id === newItem.id)
+      ? setCartItems((cartItems) =>
+          cartItems.map((item) =>
+            item.id === newItem.id
+              ? { ...item, quantity: item.quantity + newItem.quantity }
+              : item,
+          ),
+        )
+      : setCartItems((cartItems) => [...cartItems, newItem]);
   }
 
   function handleRemoveToCart(ids) {
     setCartItems((cartItems) =>
-      cartItems.filter((product) => !ids.includes(product.id))
+      cartItems.filter((product) => !ids.includes(product.id)),
     );
   }
 
   function handleUpdateCartItemQuantity(itemId, newQuantity) {
     setCartItems((cartItems) =>
-      cartItems.map((item) => (item.id === itemId ? {...item, quantity: newQuantity} : item))
+      cartItems.map((item) =>
+        item.id === itemId ? { ...item, quantity: newQuantity } : item,
+      ),
     );
   }
+
+  function handleProductFilter(
+    selectedCategories,
+    selectedRating,
+    priceRangeMin,
+    priceRangeMax,
+  ) {}
 
   return (
     <>
